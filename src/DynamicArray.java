@@ -46,8 +46,8 @@ public class DynamicArray {
 				newArray[insertSpot] = data[i];
 				insertSpot++;
 			}
-			this.data = newArray;
 		}
+		this.data = newArray;
 	}
 	public String get(int index) {
 		if(index < data.length && index >= 0) {

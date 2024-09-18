@@ -14,7 +14,7 @@ public class DynamicArrayDemo {
 		array.remove("Third");
 		array.printArray();
 		
-		System.out.println(array.find("Third"));
+		System.out.println(array.find("Fourth"));
 		System.out.println(array.get(4));
 		System.out.println(array.get(60));
 		System.out.println(array.get(-4));
